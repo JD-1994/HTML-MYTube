@@ -1,0 +1,313 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+     
+}
+.cooking{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 80px 0;
+    margin: 0;
+    text-align: left;
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_41/3044956/191009-cooking-vegetables-al-1422.jpg')
+}
+.animals{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 100px 0;
+    margin: 0;
+    text-align: left;
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+    background-image: url('https://www.verywellmind.com/thmb/15xUglFOvLnNWygFwRyRiu6nIts=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/iStock-619961796-edit-59cabaf6845b3400111119b7.jpg')
+}
+.science{
+  font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 100px 0;
+    margin: 0;
+    text-align: right;
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://snhs.kirklees.sch.uk/wp-content/uploads/2022/04/science.banner2.png')
+}
+.indexheader{
+    font-family: 'Arial', sans-serif;
+    color: white;
+    padding: 100px 0;
+    margin: 0;
+    text-align: right;
+   background-size: cover;
+   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-image: url('https://t3.ftcdn.net/jpg/03/63/35/22/360_F_363352292_DuqkBVx27wlTOU4EQw8hGHeEDnUaZrhc.jpg')
+}
+.header{
+text-align: right;
+}
+
+.nav {
+    margin-top: 10px;
+    text-align: left
+}
+
+.a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+  text-align: right;
+}
+.ani{
+    color: white;
+     font-family: 'Arial', sans-serif;
+    margin: 0 15px;
+    font-weight: bold;
+  text-align: left;
+}
+.cook{
+    color: white;
+    font-family: 'Arial', sans-serif;
+   margin: 0 15px;
+   font-weight: bold;
+ text-align: left; 
+}
+.col3{
+  color: black;
+   font-family: 'Arial', sans-serif;
+   margin: 0 15px;
+   font-weight: bold;
+ text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: white;
+   font-family: 'Arial', sans-serif;
+}
+
+.title, .cooktitle, .scititle{
+    color: black;
+   font-family: 'Arial', sans-serif;
+}
+.Featured{
+    color: black;
+    font-family: 'Arial', sans-serif; 
+}
+
+table {
+    width: 100%;
+    border-spacing: 10px;
+  border: double;
+}
+
+td {
+    vertical-align: top;
+   border: groove;
+  
+}
+
+iframe {
+    width: calc(100% - 20px); 
+    max-width: 300px;
+    height: 210px;
+    margin: 0 auto;
+    border: 2px solid #333; 
+    box-sizing: border-box; 
+    display: block; 
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  
+}
+
+.vbody {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+
+
+.nvideo{
+    background-color: #444;
+    padding: 10px;
+    
+    text-align: center;
+}
+
+.va {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    display: inline-block;
+    transition: color 0.3s ease; 
+  
+}
+
+.va:hover {
+    color: #ffd700; 
+}
+
+
+
+
+
+
+
+
+p{
+font-family: 'Roboto', sans-serif;
+}
+.vframe {
+   
+    max-width: 500px;
+    height: 300px;
+    margin: 0 auto;
+    border: 2px solid #ddd;
+    box-sizing: border-box;
+    
+    transition: transform 0.3s ease; 
+}
+
+.vframe:hover {
+    transform: scale(1.05); 
+    
+}
+.va {
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease; 
+}
+
+.va:hover {
+    color: #ffd700; 
+}
+
+.fvideo {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.bupload {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background-image: url('https://cdn.iconscout.com/icon/free/png-256/free-video-upload-4-1151629.png')
+}
+
+.heupload {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.upa {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.hupload {
+    text-align: center;
+    margin-top: 30px;
+    color: #333;
+  border: ridge;
+background-color: white;
+  margin: 0 auto;
+  padding: 1px;
+ 
+  
+}
+
+.mupload {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="button"],
+input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+.fupload {
+    text-align: center;
+    padding: 0px;
+    position: fixed;
+    bottom: 0px;
+    top: 95%;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+}
