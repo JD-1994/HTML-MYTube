@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/stylemytube.css">
+    <title>Upload video</title>
+    </head>
+<body class="bupload">
+    
+ <form action="form.html"method="post">
+    <header class="heupload">
+    
+        <nav class="nupload">
+        
+        
+            
+            <a class="upa"href="index.html">Home</a>
+                <a class="upa" href="pages/collection1.html">Collection 1</a>
+                <a class="upa" href="pages/collection2.html">Collection 2</a>
+                <a class="upa" href="pages/collection3.html">Collection 3</a>
+                <a class="upa" href="form.html">New Video</a>
+                
+            
+        
+        </nav>
+    </header>
+    <h1 class="hupload">Add New Video</h1>
+    <main class="mupload">
+        <form>
+            
+ <label for = "videotitle"><strong>Video Title</strong></label><br>
+              <input id ="videotitle" name="videotitle" type ="text" placeholder="Input Value" required><br><br>
+                                                                                                <label for="descrption"><strong>Description:</strong></label><br>
+    <textarea id="message" name="message" rows="4" cols="50" placeholder="Text area content">
+          </textarea><br><br>
+          <label for="descrption"><strong>Video</strong></label><br>
+<input type="button" value="Choose File"><br><br>
+            
+    <select id="dropdown">
+                <option value="" disabled selected>Choose Collection</option>
+             
+             <option>Collection 1</option>
+              <option>Collection 2</option>              
+              <option>Collection 3</option>
+             
+            </select> <br><br>
+
+        <input name ="puborpriv" id="public" type="radio">
+            <label for="public">Public</label>
+              <input name ="puborpriv" id="private" type="radio">
+            <label for="private">Private</label><br><br>
+<input type="submit" value="Upload File"><br><br>
+      </form>
+        
+    </main>
+
+    <footer class="fupload">
+        <p>&copy; 2023 MyAwesomeVids</p>
+    </footer>
+
+
+</body>
+</html>
